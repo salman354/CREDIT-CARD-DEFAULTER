@@ -11,7 +11,7 @@ This project is divided into two part:
 1. Training a [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) classification model to predict defaulter as accurate as possible.
 	- Cleaning the datasets, fixing all features
 	- Apply Classification ML model
-2. Building and hosting a Flask web app on Heroku.
+2. Building and hosting a Flask web app on AWS.
 	- Build the web app using Flask API
 	- Upload the project on GitHub
     - Get the customer information from Web app
@@ -23,7 +23,7 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 ## Software and Tools Required
 
 1. [Github account](https://github.com)
-2. [HerokuAccount](https://heroku.com)
+2. [AWS account](https://aws.amazon.com)
 3. [VS code IDE](https://code.visualstudio.com/)
 4. [GitCli](https://git-scm.com/downloads)
 
@@ -36,7 +36,7 @@ conda create -p venv python==3.7 -y
 # Project Interface
 
 #### I have deployed this model to Amazon Web Services (AWS)
-#### Link:http://creditcarddefault-env.eba-ppmapmfr.us-east-1.elasticbeanstalk.com/
+#### Link:http://creditcarddefaultpredictor-env.eba-nybqvhym.ap-south-1.elasticbeanstalk.com/
 
 ## Technologies Used
 
