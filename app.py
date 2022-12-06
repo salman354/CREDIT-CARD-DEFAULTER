@@ -37,7 +37,7 @@ def predict():
                  'Marrital Status':features[2],
                  'Age':features[3],
                  'Limit Balance':features[4],
-                 'PAY_0':features[5],
+                 'PAY_1':features[5],
                  'PAY_2':features [6],
                  'PAY_3':features [7],
                  'PAY_4':features [8],
