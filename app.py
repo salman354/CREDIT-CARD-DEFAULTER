@@ -30,6 +30,8 @@ def predict():
     prediction = model.predict(features_arr)
 
     print(features_arr)
+    def_payment=prediction.tolist()
+    print(type(def_payment))
     #newdb.insert_one(d)
     print("features is :",features)
     New_database={'Gender':features[0],
@@ -54,7 +56,8 @@ def predict():
                  'PAY_AMT3':features [19],
                  'PAY_AMT4':features[20],
                  'PAY_AMT5':features[21],
-                 'PAY_AMT6':features[22],}
+                 'PAY_AMT6':features[22],
+                 'Prediction':def_payment[0]}
     Collection_1.insert_one(New_database)
    
     print("prediction value: ", prediction)
